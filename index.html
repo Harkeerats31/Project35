@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+      const firebaseConfig = {
+  apiKey: "AIzaSyAvPdhNyXjeJBuB27tJVrb_ARKe7ZYC6Mk",
+  authDomain: "air-balloon-74e66.firebaseapp.com",
+  databaseURL: "https://air-balloon-74e66-default-rtdb.firebaseio.com",
+  projectId: "air-balloon-74e66",
+  storageBucket: "air-balloon-74e66.appspot.com",
+  messagingSenderId: "535271071810",
+  appId: "1:535271071810:web:83dc67cf3a1ad0e0fc8ddb"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+    <script src="./sketch.js"></script>
+  </body>
+</html>
